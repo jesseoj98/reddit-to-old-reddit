@@ -1,0 +1,1 @@
+window.location.assign(window.location.href.replace("www.reddit.com", "old.reddit.com"));
