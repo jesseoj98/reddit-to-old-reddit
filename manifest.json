@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Reddit to Old Reddit",
+  "version": "1.0",
+
+  "description": "Redirects all Reddit URLs entered into the browser into Old Reddit URLs.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.reddit.com/*"],
+      "js": ["reddit-to-old-reddit.js"]
+    }
+  ]
+
+}
